@@ -9,9 +9,9 @@ server.listen(port, () => {
 })
 
 const messages = [
-  { 'id': 1, 'user': 'christie lynam', 'message': 'react and redux are cool!' },
-  { 'id': 2, 'user': 'david whitaker', 'message': 'servers are cool!' },
-  { 'id': 3, 'user': 'jeff casimir', 'message': 'jobs are cool!' }
+  { 'id': 1, 'user': 'Dylan Hofmann', 'message': 'Love Node JS!' },
+  { 'id': 2, 'user': 'Leta', 'message': 'Servers are cool!' },
+  { 'id': 3, 'user': 'Will', 'message': 'Love a good Test suit!' }
 ]
 
 server.on('request', (request, response) => {
